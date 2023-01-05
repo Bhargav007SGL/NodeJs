@@ -4,10 +4,7 @@ let transporter = nodemailer.createTransport({
   host: "hotmail",
   // port: 465,
   // secure: true,
-  auth: {
-    user: "bhargav.v@sgligis.com",
-    pass: "jake123@",
-  },
+  auth: {},
 });
 
 let mailOptions = {
