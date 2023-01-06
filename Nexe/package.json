@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "op" : "nexe -a \"windows-x64-14.15.3\""
+    "op": "nexe -t \"windows-x64-14.15.3\"",
+    "op2": "nexe -t \"linux-x64-14.15.3\"",
+    "help": "nexe --h",
+    "thorLinux": "nexe -i myindex.js -t \"linux-x64-14.15.3\"",
+    "thorWindows": "nexe -i myindex.js -t \"windows-x64-14.15.3\""
   },
   "keywords": [],
   "author": "",
